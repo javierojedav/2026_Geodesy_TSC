@@ -1,32 +1,21 @@
 ![Deployement of book](../../actions/workflows/deploy-book.yml/badge.svg)
 [Link to 2026 Geodesy TSC Jupyter-book](https://cascadiaquakes.github.io/2026_Geodesy_TSC/)
 
-# jupyter-book-template
+# 2026 CRESCENT Technical Short Course: Strain Accumulation and Release from GNSS
+**June 15–17, 2026 | Virtual**
 
-This repository is aimed to be a template/example to follow on how to make a jupyter-book for CRESCENT with the available resources such as logo
+This repository contains materials for the **Strain Accumulation and Release from GNSS** technical short course offered through CRESCENT.
 
-Requirements are:
-- jupyter-book package  
-- matplotlib  
-- numpy
-Then you will need the different packages for your own notebooks.
+This course provides requisite tools for recognizing how earthquake cycle signatures in the Cascadia Subduction Zone are expressed in geodetic observations. It will introduce basic processing of geodetic time series to interpret longer-term strain accumulation processes and slow slip events. It will cover extracting velocities and displacements from geodetic time-series observations and introduce basic inverse methods to use geodetic data to constrain fault slip patterns.
 
-Compile: 
-jupyter-book build mybookname/   (replace "mybookname" with the path to the folder containing the _config.yml file)
+The course includes lectures, interactive Jupyter Notebooks, and hands-on exercises.
 
-open the _build/html/index.html
+For course details, please visit the 
+[course webpage](https://cascadiaquakes.org/geoscience-education-and-inclusion/technical-short-courses/geodesy/).
 
-More documentation on jupyter-book  
-https://jupyterbook.org/en/stable/intro.html
+## Instructors
 
-# How to use this template
-
-1. You should use this template to help you get started with jupyter-book. When creating a new repository, create it from template and select this one
-2. Change this readme to reflect what your project actually is
-3. In the readme, change the links of the build icon as well as the link to the deployed book
-4. The _toc.yml is the table of content, this is where you define the structure of the book (sections, chapters etc...) More informations: https://jupyterbook.org/en/stable/structure/toc.html
-5. The _config.yml should require minimal modifications: title, author. More information: https://jupyterbook.org/en/stable/customize/config.html
-6. The notebook folder currently contains simple notebooks example, replace it by yours.
-7. In the root folder, you have the intro.md and conclusion.md, modify this to fit your project
-8. In the conclusion.md, there is an example on how to use reference and add the bibliography from the .bib file. more documentation: https://jupyterbook.org/en/stable/content/citations.html 
-9. If you are using specific library and you want people to easily be able to run your notebooks, feel free to add packages to the requirement.txt. Currently the execution of the notebooks is blocked in the book, even at the compilation this is not needed to add all packages in it if the notebook are for demo purposes only and not meant to be used. Keep the requirements.txt in the root folder with at least jupyter-book for the automatic deployment.
+Brendan Crowell (Ohio State University) <br>
+Jack Loveless (Smith College)<br>
+Kaj Johnson (Indiana University Bloomington) <br>
+Tim Melbourne (Central Washington University) <br>
